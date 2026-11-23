@@ -21,7 +21,7 @@ Most of what I publish here starts as a problem that would not go away: mail tha
 | Project | What it does | Stack |
 | --- | --- | --- |
 | **[Breathing Room](https://github.com/bucabay/breathing-room-app)** | A free, open-source macOS maintenance app: see what fills the disk, review what can go, and watch what grows back. | Rust · Apache-2.0 |
-| **[Seal](https://github.com/bucabay/seal)** | A secrets manager CLI and GUI backed by the OS keychain — vaults, environments, and nothing sensitive written to disk. | TypeScript · Tauri |
+| **[Seal and KeyMaker](https://github.com/bucabay/seal)** | A secrets manager CLI and GUI backed by the OS keychain. KeyMaker is its agent-facing half: secrets an agent can use but never read. | TypeScript · Rust · Tauri |
 | **[agentq](https://github.com/bucabay/agentq)** | A Postgres queue for scheduled agent runs. Lanes decide what runs in parallel; leases survive crashes. | JavaScript · Postgres |
 | **[agent-workflow](https://github.com/bucabay/agent-workflow)** | AWL: an indented state-machine DSL for multi-agent tasks, with routing, evidence traces and cost hooks. | JavaScript |
 | **[dlna-cast](https://github.com/bucabay/dlna-cast)** | A zero-dependency DLNA/UPnP control point for Node — discover MediaRenderers on the LAN and drive playback. | TypeScript · npm |
